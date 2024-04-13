@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Attendance Management System</title>
+  <link rel="stylesheet" href="log.css">
+</head>
+<body>
+  <div class="left-section">
+    <div class="login-section">
+        <img src="4563.webp" alt="Attendance Image" class="attendance-image">
+    </div>
+</div>
+  <div class="logo1"> </div>
+  <div class="container">
+    <div class="left-section">
+    
+      <div class="login-section">
+      
+      </div>
+    </div>
+    <div class="right-section">
+      <h2>Log in</h2>
+      <form id="login-form" autocomplete="off" onsubmit="login(event)">
+        <input type="email" id="email" placeholder="EMAIL" />
+        <input type="password" id="password" placeholder="PASSWORD" />
+       <!-- <input type="text" id="name" placeholder="NAME" /> -->
+        <button type="submit" id="loginBtn" class="login">Log in </button>
+      </form>
+      <p class="sign">Don't have an account? <a href="#"  id="signup" class="sign-up" >Sign Up</a></p>
+      </form> 
+    </div>
+  </div> 
+  <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-auth.js"></script>
+
+
+  <script src="log.js"></script>
+</body>
+</html>
